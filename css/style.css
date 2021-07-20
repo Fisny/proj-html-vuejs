@@ -5,6 +5,9 @@
     color: gray;
 }
 
+.green{
+    color: #669900;
+}
 /*  */
 /* top bar green */
 .top-green{
@@ -24,6 +27,11 @@ b{
     cursor: pointer;
     text-decoration: none;
     color: white;
+}
+
+.top-green-rgt a:hover{
+    transition: 0.3s;
+    opacity: .5;
 }
 
 /* header */
@@ -54,6 +62,15 @@ header i{
     padding: 0 10px;
     font-size: 20px;
     cursor: pointer;
+    text-align: center;
+}
+
+header i:hover{
+    transition: 0.3s;
+    border-radius: 50px;
+    line-height: 20px;
+    color: rgb(190, 190, 190);
+    
 }
 
 /* department */
@@ -73,6 +90,11 @@ header i{
     cursor: pointer;
 }
 
+.department .hov:hover{
+    color: #669900;
+    transition: 0.3s;
+}
+
 .department-green i{
     margin-left: 5px;
 }
@@ -86,7 +108,7 @@ header i{
 }
 
 .jumbo i {
-    color: #669900;;
+    color: #669900;
 }
 
 .fig-lft{
@@ -109,7 +131,7 @@ header i{
 
 .categories img{
     width: 150px;
-    height: 120px;
+    height: 110px;
     margin: 30px 0;
 }
 
@@ -124,3 +146,34 @@ header i{
     font-size: 15px;
 }
 /* banner */
+.banner{
+    margin: 50px 0;
+}
+/* products */
+.products-cont{
+}
+
+.products-banner{
+    border-bottom: 1px solid gray;
+}
+
+.products-cont b{
+    margin: 0 20px;
+    font-size: 15px;
+}
+
+.products-banner b:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #669900;
+    color: #669900;
+    transition: 0.3s;
+}
+
+.product{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.product img{
+    margin-bottom: 30px;
+}
