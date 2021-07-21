@@ -1,5 +1,8 @@
 /* Utilities */
 /*  */
+.red{
+    color: red;
+}
 
 .grey{
     color: gray;
@@ -174,6 +177,13 @@ header i:hover{
     text-align: center;
 }
 
+.product:hover{
+    transition: 0.5s;
+    border: 3px solid greenyellow;
+    cursor: pointer;
+    padding: 10px;
+}
+
 .product img{
     margin-bottom: 30px;
 }
@@ -188,6 +198,18 @@ header i:hover{
 
 .blocco-products-2{
     width: 400px;
+}
+
+.corpo:hover{
+    border: 3px solid greenyellow;
+    transition: 0.3s;
+}
+
+.testa h3:hover{
+    color: rgb(167, 0, 0);
+    transition: .7s;
+    padding-left: 60px;
+    border-left: 3px solid greenyellow;
 }
 
 .blocco-products-2 a:hover{
@@ -218,5 +240,55 @@ header i:hover{
 .corpo-dati h6:hover{
     transition: 0.3s;
     opacity: .5;
+    cursor: pointer;
+}
+
+/* blog */
+
+.blog{
+    margin-top: 50px;
+}
+
+.blog-h2{
+    margin: 50px 0;
+}
+
+.blog-h2:hover{
+    margin: 50px 0;
+    color: rgb(167, 0, 0);
+    transition: .7s;
+    margin-left: 50px;
+    padding-left: 60px;
+    border-left: 3px solid greenyellow;
+}
+
+
+.blocco-blog{
+    width: 400px;
+}
+
+.blocco-blog:hover{
+    transition: 0.5s;
+    border-top: 3px solid greenyellow;
+    padding-top: 20px;
+}
+
+.blocco-blog img{
+    margin-bottom: 25px;
+    height: 300px;
+}
+
+.blog-red:hover{
+    transition: 0.3s;
+    opacity: .5;
+}
+
+.artist:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blog-txt:hover{
+    text-decoration: underline;
     cursor: pointer;
 }
