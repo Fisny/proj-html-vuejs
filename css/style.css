@@ -133,6 +133,18 @@ header i:hover{
     margin-bottom: 20px;
 }
 
+.top-categories:hover{
+    color: rgb(167, 0, 0);
+    transition: .7s;
+    margin-left: 50px;
+    padding-left: 60px;
+    border-left: 3px solid greenyellow;
+}
+
+.categories-contain:hover{
+
+}
+
 .categories img{
     width: 150px;
     height: 110px;
@@ -157,6 +169,14 @@ header i:hover{
 .products-cont{
 }
 
+.featured-products:hover{
+    color: rgb(167, 0, 0);
+    transition: .7s;
+    margin-left: 50px;
+    padding-left: 60px;
+    border-left: 3px solid greenyellow;
+}
+
 .products-banner{
     border-bottom: 1px solid gray;
 }
@@ -176,6 +196,7 @@ header i:hover{
 .product{
     text-align: center;
 }
+
 
 .product:hover{
     transition: 0.5s;
