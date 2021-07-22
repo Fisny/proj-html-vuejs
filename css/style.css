@@ -58,7 +58,13 @@ header{
     height: 35px;
 }
 
-.header-cntr input, button{
+.header-cntr input{
+    border-style: none;
+    padding: 0 10px;
+    height: 100%;
+}
+
+.header-cntr button{
     border-style: none;
     padding: 0 10px;
     height: 100%;
@@ -167,6 +173,16 @@ header i:hover{
 }
 /* products */
 .products-cont{
+}
+
+.product button{
+    border: none;
+}
+
+.product button:hover{
+    transition: .3s;
+    background-color: greenyellow;
+    border: 2px solid #669900;
 }
 
 .featured-products:hover{
