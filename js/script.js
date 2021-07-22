@@ -44,6 +44,9 @@ new Vue({
             // se il blocco appare
             // bisogna far comparire una 
             // x al posto del pulsante wishlist
+            // così eventualmente da rimuovere
+            // l'oggetto con uno splice
+            // come fare comparire la X???
         },
         cerca () {
             let testo = this.text

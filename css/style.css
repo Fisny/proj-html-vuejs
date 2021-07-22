@@ -175,7 +175,9 @@ header i:hover{
 .products-cont{
 }
 
-.product{}
+.product{
+    margin-bottom: 50px;
+}
 
 .product button{
     border: none;

@@ -202,14 +202,14 @@
             </div>
 
             <div class="row d-flex align-items-center">
-                <div v-for="(element, index) in wishArray" class="product col-3">
-                    <img :src=" 'img/' + element.immagine + '.jpg' "  alt="" class="products-img">
+                <div v-for="oggetto in wishArray" class="product col-3">
+                    <img :src=" 'img/' + oggetto.immagine + '.jpg' "  alt="" class="products-img">
                     <br>
-                    <span class="grey">{{element.tipo}}</span>
+                    <span class="grey">{{oggetto.tipo}}</span>
                     <br>
-                    <b>{{element.nomeProdotto}}</b>
+                    <b>{{oggetto.nomeProdotto}}</b>
                     <br>
-                    <b class="green price">{{element.prezzo}}</b>
+                    <b class="green price">{{oggetto.prezzo}}</b>
                     <br>
                     <button @click="wishButton">Wishlist</button>
                 </div>
