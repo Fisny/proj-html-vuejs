@@ -203,7 +203,7 @@
 
             <div class=" d-flex justify-content-between align-items-center">
                 <div v-for="oggetto in wishArray" class="product">
-                    <img :src="">
+                    <img src="">
                     <br>
                     <span class="grey">{{oggetto.tipo}}</span>
                     <br>
@@ -211,7 +211,7 @@
                     <br>
                     <b class="green price">{{oggetto.prezzo}}</b>
                     <br>
-                    <button>Wishlist</button>
+                    <button @click="wishButton">Wishlist</button>
                 </div>
     
                 <!-- <div class="product">
@@ -494,5 +494,8 @@
             
         </footer>
     </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

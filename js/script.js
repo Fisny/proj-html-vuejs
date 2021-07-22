@@ -28,5 +28,16 @@ new Vue({
             }
         ],
     },
-    methods: {},
+    methods: {
+        wishButton(pulsante) {
+            let blocco = {
+                immagine: pulsante,
+                tipo: pulsante,
+                nomeProdotto: pulsante,
+                prezzo: pulsante,
+            }
+            console.log(blocco)
+            this.wishArray.push(blocco)
+        }
+    },
 })
