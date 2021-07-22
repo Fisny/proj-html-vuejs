@@ -43,9 +43,9 @@
                 <h1>LORADA</h1>
             </div>
             <div class="header-cntr d-flex align-items-center">
-                <input type="text" name="" id="" placeholder="Search for products...">
+                <input v-model="text" @keyup.enter="cerca" type="text" name="text" id="" placeholder="Search for products...">
                 <b>ALL CATEGORIES <i class="fas fa-chevron-down"></i></b> 
-                <button><i class="fas fa-search"></i></button>
+                <button @click="cerca"><i class="fas fa-search"></i></button>
             </div>
             <div class="header-rgt">
                 <i class="far fa-user"></i>
@@ -202,14 +202,14 @@
             </div>
 
             <div class="row d-flex align-items-center">
-                <div v-for="oggetto in wishArray" class="product col-3">
-                    <img src="">
+                <div v-for="(element, index) in wishArray" class="product col-3">
+                    <img :src=" 'img/' + element.immagine + '.jpg' "  alt="" class="products-img">
                     <br>
-                    <span class="grey">{{oggetto.tipo}}</span>
+                    <span class="grey">{{element.tipo}}</span>
                     <br>
-                    <b>{{oggetto.nomeProdotto}}</b>
+                    <b>{{element.nomeProdotto}}</b>
                     <br>
-                    <b class="green price">{{oggetto.prezzo}}</b>
+                    <b class="green price">{{element.prezzo}}</b>
                     <br>
                     <button @click="wishButton">Wishlist</button>
                 </div>
