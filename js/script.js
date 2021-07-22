@@ -1,7 +1,7 @@
 new Vue({
     el: "#app",
     data: {
-        text: "",
+        text: "", //ricerca
         wishArray: [
             {
                 immagine: "1a",
@@ -51,6 +51,18 @@ new Vue({
         cerca () {
             let testo = this.text
             console.log("hai cercato " + testo)
+            let ricercaFiltrata = [];
+            // for (let x = 0; x < wishArray.length; x++) {
+            //     const elemento = wishArray[x];
+            //     let titoloProdotto = elemento.includes(tipo, nomeProdotto);
+            //     if (titoloProdotto === true) {
+            //         ricercaFiltrata.push(elemento);
+            //     }
+
+            //     console.log("Guarda" + ricercaFiltrata)
+                // blocco
+                // il codice va in errore
+            // }
         }
     },
 })
