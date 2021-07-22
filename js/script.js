@@ -29,12 +29,13 @@ new Vue({
         ],
     },
     methods: {
-        wishButton(pulsante) {
+        wishButton(elemento) {
+
             let blocco = {
-                immagine: pulsante,
-                tipo: pulsante,
-                nomeProdotto: pulsante,
-                prezzo: pulsante,
+                immagine: elemento, 
+                tipo: elemento, 
+                nomeProdotto: elemento, 
+                prezzo: elemento, 
             }
             console.log(blocco)
             this.wishArray.push(blocco)
